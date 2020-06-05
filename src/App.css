@@ -1,0 +1,51 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App-Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #9080c4;
+  height: 10vh;
+  width: 100vw;
+}
+
+.App-Header span {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #FFF;
+}
+
+.App-Content {
+  height: 90vh;
+  background-color: #DDDDDD;
+}
+
+.App-Content-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.App-Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  background-color: #FFF;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 120px;
+  height: 120px;
+
+}
+
+.App-New {
+  margin-top: 10px;
+}
